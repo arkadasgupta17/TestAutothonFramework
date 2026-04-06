@@ -88,6 +88,8 @@ public class YoutubeDemo_test {
 			test.log(Status.FAIL, "The Test Case is failed. ");
 			test.log(Status.FAIL, "The Failure Reason: " + e.getMessage())
 					.addScreenCaptureFromPath(fc.captureScreenshot());
+			test.log(Status.FAIL, "The Failure Reason: " + e.getMessage())
+					.addScreenCaptureFromPath(fc.captureScreenshot());
 
 		}
 
